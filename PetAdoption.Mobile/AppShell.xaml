@@ -7,6 +7,16 @@
     xmlns:pages="clr-namespace:PetAdoption.Mobile.Pages"
     Shell.FlyoutBehavior="Flyout">
 
+    <Shell.FlyoutHeader>
+        <Grid Padding="25" BackgroundColor="{StaticResource Primary}">
+            <Label
+                FontSize="50"
+                HorizontalTextAlignment="Center"
+                Text="Pet Adoption App"
+                TextColor="White" />
+        </Grid>
+    </Shell.FlyoutHeader>
+
     <ShellContent
         Title="Main"
         ContentTemplate="{DataTemplate local:MainPage}"
@@ -37,5 +47,18 @@
             Icon="user"
             Route="ProfilePage" />
     </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <Grid Padding="10" BackgroundColor="{StaticResource Primary}">
+            <Label
+                FontSize="15"
+                HorizontalOptions="Center"
+                Text="Created by Abhay Prince"
+                TextColor="White" />
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+            </Grid.GestureRecognizers>
+        </Grid>
+    </Shell.FlyoutFooter>
 
 </Shell>
