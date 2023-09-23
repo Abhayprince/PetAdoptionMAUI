@@ -20,4 +20,8 @@
     <ProjectReference Include="..\PetAdoption.Shared\PetAdoption.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
