@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetAdoption.Mobile", "PetAdoption.Mobile\PetAdoption.Mobile.csproj", "{8B904614-83B6-4042-BAEA-136FCF8F303C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetAdoption.Api", "PetAdoption.Api\PetAdoption.Api.csproj", "{29909592-00E0-48A4-A9C6-ECBB256A6BF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetAdoption.Shared", "PetAdoption.Shared\PetAdoption.Shared.csproj", "{13696A7B-D7F6-434B-82D3-5F4DE38585F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,14 @@ Global
 		{8B904614-83B6-4042-BAEA-136FCF8F303C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B904614-83B6-4042-BAEA-136FCF8F303C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8B904614-83B6-4042-BAEA-136FCF8F303C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{29909592-00E0-48A4-A9C6-ECBB256A6BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29909592-00E0-48A4-A9C6-ECBB256A6BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29909592-00E0-48A4-A9C6-ECBB256A6BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29909592-00E0-48A4-A9C6-ECBB256A6BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13696A7B-D7F6-434B-82D3-5F4DE38585F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13696A7B-D7F6-434B-82D3-5F4DE38585F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13696A7B-D7F6-434B-82D3-5F4DE38585F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13696A7B-D7F6-434B-82D3-5F4DE38585F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
