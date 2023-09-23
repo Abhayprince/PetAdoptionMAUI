@@ -4,11 +4,38 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:PetAdoption.Mobile"
-    Shell.FlyoutBehavior="Disabled">
+    xmlns:pages="clr-namespace:PetAdoption.Mobile.Pages"
+    Shell.FlyoutBehavior="Flyout">
 
     <ShellContent
-        Title="Home"
+        Title="Main"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="MainPage"
+        Shell.FlyoutItemIsVisible="False"
+        Shell.NavBarIsVisible="False"
+        Shell.TabBarIsVisible="False" />
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate pages:HomePage}"
+            Icon="home"
+            Route="HomePage" />
+        <ShellContent
+            Title="All Pets"
+            ContentTemplate="{DataTemplate pages:AllPetsPage}"
+            Icon="list"
+            Route="AllPetsPage" />
+        <ShellContent
+            Title="Favorites"
+            ContentTemplate="{DataTemplate pages:FavoritesPage}"
+            Icon="heart"
+            Route="FavoritesPage" />
+        <ShellContent
+            Title="Profile"
+            ContentTemplate="{DataTemplate pages:ProfilePage}"
+            Icon="user"
+            Route="ProfilePage" />
+    </FlyoutItem>
 
 </Shell>
