@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using CommunityToolkit.Maui;
+using Microsoft.Extensions.Logging;
 
 namespace PetAdoption.Mobile
 {
@@ -13,7 +14,8 @@ namespace PetAdoption.Mobile
                 {
                     fonts.AddFont("Ubuntu-Regular.ttf", "UbuntuRegular");
                     fonts.AddFont("Ubuntu-Bold.ttf", "UbuntuBold");
-                });
+                })
+                .UseMauiCommunityToolkit();
 
 #if DEBUG
 		builder.Logging.AddDebug();
