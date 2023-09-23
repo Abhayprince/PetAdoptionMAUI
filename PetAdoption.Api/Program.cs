@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PetAdoption.Api.Data;
+using PetAdoption.Api.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<PetContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Pet")), ServiceLifetime.Transient);
+
+builder.Services.AddSignalR();
 
 var app = builder.Build();
 
@@ -27,6 +30,8 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapHub<PetHub>("/hubs/pet-hub");
 
 app.Run();
 
