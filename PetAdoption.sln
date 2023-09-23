@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetAdoption.Mobile", "PetAdoption.Mobile\PetAdoption.Mobile.csproj", "{8B904614-83B6-4042-BAEA-136FCF8F303C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B904614-83B6-4042-BAEA-136FCF8F303C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B904614-83B6-4042-BAEA-136FCF8F303C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B904614-83B6-4042-BAEA-136FCF8F303C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8B904614-83B6-4042-BAEA-136FCF8F303C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B904614-83B6-4042-BAEA-136FCF8F303C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B904614-83B6-4042-BAEA-136FCF8F303C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1918179F-AC17-4505-A8FF-E36A1FCF1FE6}
+	EndGlobalSection
+EndGlobal
