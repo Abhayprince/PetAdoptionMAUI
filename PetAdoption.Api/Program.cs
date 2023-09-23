@@ -17,6 +17,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    ApplyDbMigrations(app.Services);
     app.UseSwagger();
     app.UseSwaggerUI();
 }
@@ -28,3 +29,11 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+static void ApplyDbMigrations(IServiceProvider serviceProvider)
+{
+    using var scope = serviceProvider.CreateScope();
+    var context = scope.ServiceProvider.GetRequiredService<PetContext>();
+    if (context.Database.GetPendingMigrations().Any())
+        context.Database.Migrate();
+}
