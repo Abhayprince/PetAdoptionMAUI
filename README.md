@@ -1,4 +1,5 @@
-# PetAdoption Store App - .Net MAUI + Asp.Net Core Web Api + EF Core + SignalR - .Net 7
+# Pet Adoption Store App
+### Pet Adoption Store App built with .Net MAUI + Asp.Net Core Web Api + EF Core + SignalR - .Net 7
 
 ###### Get Complete Source Code
 https://www.buymeacoffee.com/abhayprince/e/172070 
