@@ -20,6 +20,13 @@ My Profile Page                       | Login/Register Page            | Onboard
 
 -------------------------------
 
+## Video Tutorial
+> If you want to see the detailed video tutorial of this sample, checkout the video on my youtube channel
+> 
+> [Complete Fullstack Pet Adoption Store Mobile App with .NET MAUI + Asp.Net Core Web API + SignalR - Abhay Prince - YouTube](https://youtu.be/1js5U3gWamg)
+
+-------------------------------
+
 ##### [Get Complete Source Code](https://www.buymeacoffee.com/abhayprince/e/172070)
 
 -------------------------------
